@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Tim Sepak Bola Internasional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* CSS kustom sederhana untuk sentuhan sporty */
+        .hero-section {
+            background: url('latar_belakang_stadion.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .section-title {
+            color: #0d6efd; /* Warna biru Bootstrap */
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .player-card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .player-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nama Tim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skuad">Skuad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jadwal">Jadwal & Hasil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#berita">Berita Terbaru</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-2">Juara Dunia!</h1>
+            <p class="lead">Situs Resmi Tim Sepak Bola Internasional **Nama Tim Anda**</p>
+            <a href="#jadwal" class="btn btn-primary btn-lg mt-3">Lihat Jadwal Pertandingan</a>
+        </div>
+    </header>
+
+    <section id="skuad" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Skuad Inti</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 text-center player-card shadow-sm">
+                        <img src="pemain_1.jpg" class="card-img-top" alt="Nama Pemain 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Pemain 1</h5>
+                            <p class="card-text">Posisi: Penyerang | Nomor: 10</p>
+                            <a href="#" class="btn btn-sm btn-outline-dark">Profil Lengkap</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center player-card shadow-sm">
+                        <img src="pemain_2.jpg" class="card-img-top" alt="Nama Pemain 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Pemain 2</h5>
+                            <p class="card-text">Posisi: Gelandang | Nomor: 8</p>
+                            <a href="#" class="btn btn-sm btn-outline-dark">Profil Lengkap</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="jadwal" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Jadwal Pertandingan Berikutnya</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th scope="col">Tanggal</th>
+                            <th scope="col">Kompetisi</th>
+                            <th scope="col">Pertandingan</th>
+                            <th scope="col">Waktu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15 Nov 2025</td>
+                            <td>Kualifikasi Piala Dunia</td>
+                            <td>**Nama Tim** vs Lawan A</td>
+                            <td>20:00 WIB</td>
+                        </tr>
+                        <tr>
+                            <td>22 Nov 2025</td>
+                            <td>Uji Coba Internasional</td>
+                            <td>Lawan B vs **Nama Tim**</td>
+                            <td>01:00 WIB</td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="berita" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Berita Terbaru</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="berita_1.jpg" class="card-img-top" alt="Gambar Berita 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pemain Kunci Absen di Laga Berikutnya</h5>
+                            <p class="card-text"><small class="text-muted">3 Jam yang lalu</small></p>
+                            <a href="#" class="btn btn-sm btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="berita_2.jpg" class="card-img-top" alt="Gambar Berita 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Pelatih Optimis Raih Poin Penuh</h5>
+                            <p class="card-text"><small class="text-muted">Kemarin</small></p>
+                            <a href="#" class="btn btn-sm btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 Nama Tim Sepak Bola Internasional. Semua Hak Cipta Dilindungi.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Facebook</a>
+                    <a href="#" class="text-white me-3">Twitter</a>
+                    <a href="#" class="text-white">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/
