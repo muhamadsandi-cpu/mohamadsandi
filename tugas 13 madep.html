@@ -1,0 +1,66 @@
+
+ <div class="text-center text-primary">
+  <img src="TNII.jpeg" class="rounded" width="300px">
+  <h2>INFOO MANCING</h2>
+  <h3>I LOVEE HASNAAA GENDUT<h3>
+    <h4>КАНЬЮТ БАДАГГ<h4>
+  </div>
+
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Kontak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    form {
+      max-width: 600px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+    .row input {
+      flex: 1;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Hubungi Saya</h2>
+  <form>
+    <div class="row">
+      <input type="text" name="nama" placeholder="Nama Lengkap" required>
+      <input type="email" name="email" placeholder="Email" required>
+    </div>
+    <input type="text" name="subjek" placeholder="Subjek" required>
+    <textarea name="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+    <button type="submit">Kirim Pesan</button>
+  </form>
+</body>
+</html>
